@@ -69,30 +69,31 @@ Using Python Deep Learning algorithms in order to monitor visitors and classify 
 ## 1. Running the project:
 * Execute the following command to run the project:
 
-  `python DBR.py --debug --cpu`
+  `python doorbellcam.py`
   
-  or (if running on GPU):
-  
-  `python DBR.py --debug`
   
 ## 2. Face detection test:
-By merging the following modules:
-  * [head-pose-estimation](https://github.com/yinguobing/head-pose-estimation)
-  * [face-alignment](https://github.com/1adrianb/face-alignment)
-  * [GazeTracking](https://github.com/antoinelame/GazeTracking)
+By using the following module:
+  * [face_recognition](https://github.com/ageitgey/face_recognition#python-code-examples)
+
   
-Which was already done in the following project: [VTuber_Unity](https://github.com/kwea123/VTuber_Unity), you will recognize the following appearing on your screen:
+Which was already done in the following project: [Hardware Security System](https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd), you will recognize the following appearing on your screen:
 
-![picture alt](https://github.com/kwea123/VTuber_Unity/blob/master/images/debug_cpu.gif "CPU Model")
-![picture alt](https://github.com/kwea123/VTuber_Unity/blob/master/images/debug_gpu.gif "GPU Model")
+![picture alt](https://i.ibb.co/F63c9XZ/doorbellcam-pic.png)
 
-###### Gifs are taken by: [VTuber_Unity](https://github.com/kwea123/VTuber_Unity)
+## 3. Determining if the visitor is a new visitor or not:
+This was done by saving data of who approaches the door's camera into a .dat file.
 
-## 3. Determining where the driver's is looking (Right mirror, left mirror, Front mirror (road), Rear mirror, Dashboard, Center Console):
-This was done by saving data of driver's head and gaze direction in order to use a classifier (KNN Classifier) to determine where the driver is looking.
+If the person is a new visitor, the following will appear:
 
 <p align="center">
-  <img src="https://i.ibb.co/9qRrfnR/1.gif">
+  <img src="https://i.ibb.co/X7hTH2X/1st.png">
+</p>
+
+If the person has visited the door before, the following will appear:
+
+<p align="center">
+  <img src="https://i.ibb.co/TqptQHh/2nd.png">
 </p>
 
 ## 4. Using sequence classification methods in order to determine drivers mode just by looking at the mirrors (using mirrors in a normal way):
