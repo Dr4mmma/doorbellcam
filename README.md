@@ -96,29 +96,22 @@ If the person has visited the door before, the following will appear:
   <img src="https://i.ibb.co/TqptQHh/2nd.png">
 </p>
 
-## 4. Using sequence classification methods in order to determine drivers mode just by looking at the mirrors (using mirrors in a normal way):
-This was done by saving data of the previous method in order to use a classifier (KNN Classifier (sequence classification)) to determine whether the driver is driving normally or not.
+## 4. Classifying the behavior of strange visitors:
+This was done after making a study that resulted in two acts a strange person might do:
+
+1. If a visitor does not ring the bell for 60 seconds, an alarm will go on that warns the people inside this property.
 
 <p align="center">
-  <img src="https://i.ibb.co/vmY6vh2/2.gif">
+  <img src="https://i.ibb.co/ypL2zCF/Screenshot-1.jpg">
 </p>
 
-## 5. Running drowsiness and distraction detector module:
-This module was merged with the main project to understand driver's state (distracted, sleepy or normal), this module is already implemented as [DBSE-Monitor](https://github.com/altaga/DBSE-monitor/tree/master/Drowsiness)
+2. If a visitor does not ring the bell for 120 seconds, an alarm will go on that warns the people inside this property, and the system will send a whatsapp message using Twillio with the strange visitor picture with a warning message.
 
 <p align="center">
-  <img src="https://i.ibb.co/DRXRvWf/3.gif">
+  <img src="https://i.ibb.co/T02B9sP/owl.png">
 </p>
 
-###### Gifs are taken by: [DBSE-Monitor](https://github.com/altaga/DBSE-monitor/tree/master/Drowsiness)
-
-## 6. Defining if the driver is in a normal driving mode or not:
-This was done by an if statement:
-* Driver is looking at the mirrors probably, not sleepy and not distracted, then the driver is normal.
-* Driver is not looking at the mirrors probably or sleepy or distracted, then the driver is apnormal.
-Then if the driver is not normal for over 52 frames, an alarm goes out for 8 seconds to warn the driver to focus on the road.
-
-## 7. Implementation:
+## 5. Implementation:
 This project will be ran on Jetson nano/xavier, as it is a mini computer that was made for AI projects.
 
 <p align="center">
@@ -131,7 +124,7 @@ This project will be ran on Jetson nano/xavier, as it is a mini computer that wa
 Video is coming soon!!!!
 
 # Final thoughts
-I would consider this project finished, but there will be minor modifications to data gathered in order to assure high accuracy.
+I would consider this project finished, but there will be minor modifications to data gathered and how alarm system goes on in order to assure high accuracy.
 The final product will be available soon, and hopefully I can get a commercial product available at very cheap price.
 I would love the opportunity to have a talk with a production company that can help me to get to a commercial product.
 
@@ -139,8 +132,6 @@ Thank you for your time, this code is available for any developer that wants to 
 Contact me for any further details at: mohammad.tayseer.comn@gmail.com
 
 # Licenses
-  * [head-pose-estimation](https://github.com/yinguobing/head-pose-estimation)
-  * [face-alignment](https://github.com/1adrianb/face-alignment)
-  * [GazeTracking](https://github.com/antoinelame/GazeTracking)
-  * [DBSE-Monitor](https://github.com/altaga/DBSE-monitor/tree/master/Drowsiness)
-  * [VTuber_Unity](https://github.com/kwea123/VTuber_Unity)
+  * [face_recognition](https://github.com/ageitgey/face_recognition#python-code-examples)
+  * [Adam Geitgey](https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd)
+
