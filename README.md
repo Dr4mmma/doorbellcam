@@ -60,6 +60,7 @@ Using Python Deep Learning algorithms in order to monitor visitors and classify 
      `dlib.__version__`
      
 * Install the face recognition module that this system is based on:
+
      `pip install face_recognition`
 * Other packages may be needed to get installed, but you're almost there!
 
