@@ -24,7 +24,7 @@ Using Python Deep Learning algorithms in order to monitor visitors and classify 
 
 ## Hardware
 * OS: Ubuntu 16.04 (at least) or Windows 10 (Maybe MacOS as well).
-* Runs on both CPU and GPU (at least CUDA 9.0)
+* Runs on both CPU
 
 ## Software
 * Download and Install 64-bit Anaconda 3
@@ -58,6 +58,9 @@ Using Python Deep Learning algorithms in order to monitor visitors and classify 
      `import dlib`
      
      `dlib.__version__`
+     
+* Install the face recognition module that this system is based on:
+     `pip install face_recognition`
 * Other packages may be needed to get installed, but you're almost there!
 
 # How to use it (inluding brief summary of what you see):
