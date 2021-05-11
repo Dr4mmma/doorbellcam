@@ -17,7 +17,7 @@ Using Python Deep Learning algorithms in order to monitor visitors and classify 
 | Project | License  | 
 | :---:   | :-: | 
 | [face_recognition](https://github.com/ageitgey/face_recognition#python-code-examples) | [License](https://github.com/ageitgey/face_recognition#python-code-examples) |
-| [Build a Hardware-based Face Recognition System for $150 with the Nvidia Jetson Nano and Python](https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd) | [License](https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd) |
+| [Adam Geitgey](https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd) | [License](https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd) |
 
 
 # Installation
