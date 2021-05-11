@@ -111,7 +111,17 @@ This was done after making a study that resulted in two acts a strange person mi
   <img src="https://i.ibb.co/T02B9sP/owl.png">
 </p>
 
-## 5. Implementation:
+## 5. Twillio:
+Twillio was used to send WhatsApp messages to owner/security of the property.
+
+To setup Twillio, please follow this link: [Send and Receive Media Messages with WhatsApp in Python](https://www.twilio.com/docs/whatsapp/tutorial/send-and-receive-media-messages-whatsapp-python)
+
+## 6. Hosting Server:
+To be able to send a picture to the owner/security, the picture captured by the doorbell camera should be hosted on a hosting server so Twillio can view it and send it over the web. This was done using SimpleHTTPServer.
+
+To setup your own webserver on your local machine, please follow this link: [How to Use Python ‘SimpleHTTPServer’ to Create Webserver or Serve Files Instantly](https://www.tecmint.com/python-simplehttpserver-to-create-webserver-or-serve-files-instantly/)
+
+## 7. Implementation:
 This project will be ran on Jetson nano/xavier, as it is a mini computer that was made for AI projects.
 
 <p align="center">
