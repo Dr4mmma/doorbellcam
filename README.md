@@ -145,3 +145,8 @@ Contact me for any further details at: mohammad.tayseer.comn@gmail.com
   * [face_recognition](https://github.com/ageitgey/face_recognition#python-code-examples)
   * [Adam Geitgey](https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd)
 
+# Contributers
+  * [Mohammad Abu Mailiesh](http://www.mam-cv.me/)
+  * Mhmoud Karkash
+
+
